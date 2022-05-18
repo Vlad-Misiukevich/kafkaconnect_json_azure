@@ -59,7 +59,7 @@ az aks get-credentials \
 15. Create a kafka topic in Control Center:
 ![img_13.png](images/img_13.png)
 16. Set up port forwarding to connect cluster from local machine:  
-`kubectl port-forward controlcenter-0 8083:8083`
+`kubectl port-forward connect-0 8083:8083`
 ![img_14.png](images/img_14.png)
 17. Create connector and read data from storage container into Kafka topic:  
 `curl.exe -d "@C:\Users\Uladzislau_Misiukevi\PycharmProjects\m11_kafkaconnect_json_azure\connectors\azure-sour
